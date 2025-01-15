@@ -72,18 +72,20 @@ This project analyzes a dataset of movies and TV shows available on Netflix to u
 ## Machine Learning Models
 
 ### Models Implemented:
+1. **Random Forest Classifier**:
+   - **Accuracy**: 99%
 
-1. **Logistic Regression**:
-   - **Objective**: Predict content success based on attributes like `type`, `rating`, `duration`, and `listed_in`.
-   - **Accuracy**: 78%
+2. **DecisionTreeClassifier**:
+   - **Accuracy**: 98%
 
-2. **Random Forest Classifier**:
-   - **Objective**: Improve prediction accuracy for content success.
-   - **Accuracy**: 85%
+3. **Support Vector Classification**:
+   - **Accuracy**: 92%
 
-3. **K-Means Clustering**:
-   - **Objective**: Group content into clusters based on attributes such as genre, duration, and country.
-   - **Silhouette Score**: 0.72
+4. **Logistic Regression**:
+   - **Accuracy**: 88%
+
+
+
 
 ### Feature Engineering:
 
